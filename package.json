@@ -6,7 +6,9 @@
     "@skyscanner/backpack-react-scripts": "10.6.0"
   },
   "backpack-react-scripts": {
-    "babelIncludePrefixes": ["@skyscanner[\\/]backpack-web[\\/](bpk-)"]
+    "babelIncludePrefixes": [
+      "@skyscanner[\\/]backpack-web[\\/](bpk-)"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "@skyscanner/backpack-web": "^15.1.0",
+    "bpk-component-calendar": "^13.1.2",
     "bpk-mixins": "^36.2.0",
     "bpk-stylesheets": "^7.2.16",
     "react": "^17.0.2",
